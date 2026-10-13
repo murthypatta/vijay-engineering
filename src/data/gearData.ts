@@ -1,4 +1,13 @@
 import { GearTypeInfo, PainPointItem } from '../types';
+import bevelHelicalImage from '../assets/images/types_bevel_helical_1791891645639.jpg';
+import helicalGearsImage from '../assets/images/helical_double_gears_1791894777150.jpg';
+import herringboneGearImage from '../assets/images/herringbone_bull_gear_1791895433217.jpg';
+import spiralBevelImage from '../assets/images/spiral_bevel_gears_1791895892612.jpg';
+import bronzeWormImage from '../assets/images/bronze_worm_gear_1791891645632.jpg';
+import planetaryGearImage from '../assets/images/internal_planetary_gear_1791896438723.jpg';
+import gearAssemblyImage from '../assets/images/gear_hero_assembly_1791891644858.jpg';
+import splineShaftsImage from '../assets/images/spline_shafts_sprockets_1791897000713.jpg';
+import brokenGearImage from '../assets/images/broken_gear_inspection_1791891645384.jpg';
 
 export const GEAR_CATALOG: GearTypeInfo[] = [
   {
@@ -17,7 +26,7 @@ export const GEAR_CATALOG: GearTypeInfo[] = [
     manufacturingFrom: ['Technical Drawing', 'Physical Worn Sample', 'Dimensions/Specs'],
     keySpecifications: ['Module 1.0 to 16.0 (or DP equivalents)', 'Diameter: Up to 1200 mm', 'Teeth profiles: Standard & Modified Involute', 'Precision bore & keyway cutting'],
     typicalFailureMode: 'Tooth root fatigue, surface pitting from incorrect profile alignment or unhardened teeth.',
-    imageUrl: '/src/assets/images/types_bevel_helical_1791891645639.jpg',
+    imageUrl: bevelHelicalImage,
     imageCaption: 'Precision-hobbed spur gear wheel and cylindrical gear blanks'
   },
   {
@@ -36,7 +45,7 @@ export const GEAR_CATALOG: GearTypeInfo[] = [
     manufacturingFrom: ['Technical Drawing', 'Physical Worn Sample', 'Dimensions/Specs'],
     keySpecifications: ['Helix Angle: 8° to 45°', 'Face Width: Optimized for load distribution', 'Left-Hand & Right-Hand pairs', 'Ground tooth profiles available'],
     typicalFailureMode: 'Excessive thrust load failure, pitting along contact lines from poor tooth crowning.',
-    imageUrl: '/src/assets/images/helical_double_gears_1791894777150.jpg',
+    imageUrl: helicalGearsImage,
     imageCaption: 'Precision-machined helical and double helical (herringbone) gear wheels with V-shaped teeth'
   },
   {
@@ -54,7 +63,7 @@ export const GEAR_CATALOG: GearTypeInfo[] = [
     manufacturingFrom: ['Technical Drawing', 'Physical Worn Sample', 'Dimensions/Specs'],
     keySpecifications: ['Continuous or Grooved Apex', 'Custom diametral pitch replication', 'Heavy-duty face widths'],
     typicalFailureMode: 'Uneven wear across twin helices when shafts go out of parallel alignment.',
-    imageUrl: '/src/assets/images/herringbone_bull_gear_1791895433217.jpg',
+    imageUrl: herringboneGearImage,
     imageCaption: 'Heavy-duty forged steel herringbone double helical gear wheel for rolling mills and heavy drives'
   },
   {
@@ -73,7 +82,7 @@ export const GEAR_CATALOG: GearTypeInfo[] = [
     manufacturingFrom: ['Technical Drawing', 'Physical Worn Sample', 'Dimensions/Specs'],
     keySpecifications: ['Shaft Angle: 90° (Standard) or Custom Oblique', 'Precision matched gear and pinion pairs', 'Mounting distance verification'],
     typicalFailureMode: 'Scuffing and chipped tooth ends due to improper mounting distance adjustment.',
-    imageUrl: '/src/assets/images/spiral_bevel_gears_1791895892612.jpg',
+    imageUrl: spiralBevelImage,
     imageCaption: 'Precision-matched spiral bevel gear and pinion drive assembly for 90-degree shaft power transmission'
   },
   {
@@ -91,7 +100,7 @@ export const GEAR_CATALOG: GearTypeInfo[] = [
     manufacturingFrom: ['Technical Drawing', 'Physical Worn Sample', 'Dimensions/Specs'],
     keySpecifications: ['Single, Double & Multi-start Worms', 'Thread grinding & polishing', 'Precision lead angle matching'],
     typicalFailureMode: 'Rapid bronze tooth flaking when lubrication breaks down or shafts deflect.',
-    imageUrl: '/src/assets/images/bronze_worm_gear_1791891645632.jpg',
+    imageUrl: bronzeWormImage,
     imageCaption: 'High-grade phosphor bronze worm wheel meshed with case-hardened worm shaft'
   },
   {
@@ -109,7 +118,7 @@ export const GEAR_CATALOG: GearTypeInfo[] = [
     manufacturingFrom: ['Technical Drawing', 'Physical Worn Sample', 'Dimensions/Specs'],
     keySpecifications: ['Internal shaping & gear slotting', 'Internal diameters up to 1000 mm', 'Flame/induction hardened teeth'],
     typicalFailureMode: 'Internal rim cracking or uneven tooth tip wear from planet carrier misalignment.',
-    imageUrl: '/src/assets/images/internal_planetary_gear_1791896438723.jpg',
+    imageUrl: planetaryGearImage,
     imageCaption: 'Precision-machined internal ring gear with planetary pinions and sun gear assembly'
   },
   {
@@ -127,7 +136,7 @@ export const GEAR_CATALOG: GearTypeInfo[] = [
     manufacturingFrom: ['Technical Drawing', 'Physical Worn Sample', 'Dimensions/Specs'],
     keySpecifications: ['Zero run-out precision bore', 'Exact timing marks stamped', 'Tight backlash tolerances (0.05 - 0.12 mm)'],
     typicalFailureMode: 'Catastrophic engine valve collision if teeth skip or break due to inaccurate tooth pitching.',
-    imageUrl: '/src/assets/images/gear_hero_assembly_1791891644858.jpg',
+    imageUrl: gearAssemblyImage,
     imageCaption: 'Engine timing gear wheels manufactured with precision bore and keyway tolerances'
   },
   {
@@ -145,7 +154,7 @@ export const GEAR_CATALOG: GearTypeInfo[] = [
     manufacturingFrom: ['Technical Drawing', 'Physical Worn Sample', 'Dimensions/Specs'],
     keySpecifications: ['Involute & Straight-sided Splines', 'Simplex, Duplex & Triplex Sprockets', 'Broached or wire-EDM / slotted internal splines'],
     typicalFailureMode: 'Fretting corrosion and tooth shearing from torsional play and improper hardness.',
-    imageUrl: '/src/assets/images/spline_shafts_sprockets_1791897000713.jpg',
+    imageUrl: splineShaftsImage,
     imageCaption: 'Precision-machined involute spline shafts, heavy transmission sprockets, and splined couplings'
   }
 ];
@@ -160,7 +169,7 @@ export const PAIN_POINTS_DATA: PainPointItem[] = [
     engineeringRemedy: 'We analyze your operational torque and shock loads, selecting certified alloy steel (e.g. EN19, EN24, 20MnCr5) with controlled heat treatment (case-hardening or induction) to ensure tooth toughness and fatigue resistance.',
     impactOnDowntime: 'Eliminates sudden catastrophic fractures; keeps primary lines running reliably between scheduled maintenance windows.',
     iconName: 'AlertTriangle',
-    imageUrl: '/src/assets/images/broken_gear_inspection_1791891645384.jpg'
+    imageUrl: brokenGearImage
   },
   {
     id: 'pain-2',
@@ -171,7 +180,7 @@ export const PAIN_POINTS_DATA: PainPointItem[] = [
     engineeringRemedy: 'Vijay Engineering Works manufactures custom gears directly from your technical drawings, hand-sketched dimensions, or physical worn/damaged samples sent to our Kakinada workshop for reverse-engineering.',
     impactOnDowntime: 'Cuts lead time from months of overseas sourcing down to rapid domestic manufacturing, restarting stopped machinery fast.',
     iconName: 'Search',
-    imageUrl: 'https://images.openai.com/static-rsc-4/9zfy9r6sA1kdzGocH9m6purLT2PiztOHonLNdewboMosFdZc6QvkUVNRzgGy6JGExMM_PcI4XUTlL5xQaQiAPJg1bjajQJmKxUrggO1iqZ792LCxtWcALvUTRCs7z8ccAcxmJJ1vFHNcYkCWDK6s7Y1cdRJ-mHWlRxL0cC1lPro?purpose=inline'
+    imageUrl: gearAssemblyImage
   },
   {
     id: 'pain-3',
@@ -182,7 +191,7 @@ export const PAIN_POINTS_DATA: PainPointItem[] = [
     engineeringRemedy: 'Fit-for-application engineering: we verify tooth root geometry, pitch diameter, pressure angle (20° vs 14.5°), and core-to-surface metallurgical profile so replacement gears last their full design life.',
     impactOnDowntime: 'Stops the expensive cycle of teardowns, gearbox oil replacements, and repetitive technician overtime.',
     iconName: 'RefreshCw',
-    imageUrl: 'https://images.openai.com/static-rsc-4/l1SRrzQdsIm5zy3hA9FY8iGSnFxFTIosrKi2lbKsvuZ1kiPQqoE1QYPuzboUYyBl0ns-SpWxHwkjOAyI3NYxqMcQY-dREwO6f5uePlKkO3cyIlfxtS_jQ6zyOfD7RfRjGhS-bwfCkDgczgJT2Y8zb3uzvG1JnOUfIRJNOWhm1XoJ7zoFzOqSBh6z5WPvuqWB?purpose=inline'
+    imageUrl: helicalGearsImage
   },
   {
     id: 'pain-4',
@@ -193,7 +202,7 @@ export const PAIN_POINTS_DATA: PainPointItem[] = [
     engineeringRemedy: 'Transparent technical review before cutting metal. We confirm all critical dimensions (bore, keyway, teeth count, OD, module) and provide clear feasibility assessments and honest delivery commitments.',
     impactOnDowntime: 'Ensures the gear fits the shaft and meshes correctly on the first installation, with zero on-site grinding or re-work.',
     iconName: 'ShieldCheck',
-    imageUrl: 'https://images.openai.com/static-rsc-4/oEInvAVLdOCZeEUwxB1_bU17qZDbz9IBDzVoluceLLFkxNIrFlHY4EMHDG3maqrO0cox_xJ-mTxsQDOWnOvWpBnUlPUCfs2Nue2oesz-8uiPymnNinw439i22EE9xottykEF6MMOcfYqMVawO8nqPfjX869zj6RP-iyGsHcdRPk?purpose=inline'
+    imageUrl: herringboneGearImage
   }
 ];
 

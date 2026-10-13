@@ -1,4 +1,10 @@
 import React, { useState } from 'react';
+import bevelHelicalImage from '../assets/images/types_bevel_helical_1791891645639.jpg';
+import helicalGearsImage from '../assets/images/helical_double_gears_1791894777150.jpg';
+import spiralBevelImage from '../assets/images/spiral_bevel_gears_1791895892612.jpg';
+import bronzeWormImage from '../assets/images/bronze_worm_gear_1791891645632.jpg';
+import planetaryGearImage from '../assets/images/internal_planetary_gear_1791896438723.jpg';
+import brokenGearImage from '../assets/images/broken_gear_inspection_1791891645384.jpg';
 import { Cog, CheckCircle2, ArrowRight, Layers, Cpu, Maximize2 } from 'lucide-react';
 
 interface GearVisualItem {
@@ -21,7 +27,7 @@ const VISUAL_GEAR_TYPES: GearVisualItem[] = [
     category: 'Cylindrical Gears',
     shaftOrientation: 'Parallel Shafts',
     toothGeometry: 'Straight teeth parallel to axis of rotation (Standard 20° involute profile)',
-    imageUrl: '/src/assets/images/types_bevel_helical_1791891645639.jpg',
+    imageUrl: bevelHelicalImage,
     caption: 'Precision hobbed spur gear blanks with cut teeth and central keyway bore',
     primaryAdvantage: 'High 98-99% mechanical efficiency with zero axial thrust forces.',
     manufacturingHighlight: 'Hobbed from EN8, EN19, or 20MnCr5 with induction hardened tooth flanks.',
@@ -33,7 +39,7 @@ const VISUAL_GEAR_TYPES: GearVisualItem[] = [
     category: 'Continuous Meshing Gears',
     shaftOrientation: 'Parallel Shafts',
     toothGeometry: 'Teeth inclined at helix angle (8° to 45°) to axis of rotation',
-    imageUrl: '/src/assets/images/helical_double_gears_1791894777150.jpg',
+    imageUrl: helicalGearsImage,
     caption: 'Precision alloy steel helical and double helical (herringbone) gear wheels',
     primaryAdvantage: 'Gradual tooth engagement dramatically lowers noise and shock in continuous 24/7 service.',
     manufacturingHighlight: 'Manufactured as left-hand or right-hand pairs; crowning to prevent edge loading.',
@@ -45,7 +51,7 @@ const VISUAL_GEAR_TYPES: GearVisualItem[] = [
     category: 'Conical Gears',
     shaftOrientation: 'Intersecting Shafts (Typically 90°)',
     toothGeometry: 'Conical pitch surface with straight or curved spiral teeth',
-    imageUrl: '/src/assets/images/spiral_bevel_gears_1791895892612.jpg',
+    imageUrl: spiralBevelImage,
     caption: 'Precision-machined spiral bevel gear and pinion drive assembly',
     primaryAdvantage: 'Transmits smooth, high torque around corners without extra idler shafts.',
     manufacturingHighlight: 'Lapped and matched as paired sets for proper mounting distance.',
@@ -57,7 +63,7 @@ const VISUAL_GEAR_TYPES: GearVisualItem[] = [
     category: 'Screw & Wheel Reduction',
     shaftOrientation: 'Non-intersecting Perpendicular Shafts (90°)',
     toothGeometry: 'Concave globoidal or helical teeth enveloping a hardened steel single or multi-start thread screw',
-    imageUrl: '/src/assets/images/bronze_worm_gear_1791891645632.jpg',
+    imageUrl: bronzeWormImage,
     caption: 'Machined phosphor bronze wheel meshed with case-carburized alloy steel worm shaft',
     primaryAdvantage: 'Massive single-stage speed reduction (up to 70:1) with inherent anti-backdrive safety.',
     manufacturingHighlight: 'Phosphor bronze (PB2) wheel prevents galling against hardened steel worm threads.',
@@ -69,7 +75,7 @@ const VISUAL_GEAR_TYPES: GearVisualItem[] = [
     category: 'Compact Epicyclic Gears',
     shaftOrientation: 'Co-Axial Shafts',
     toothGeometry: 'Involute teeth shaped on inside diameter of an alloy ring blank',
-    imageUrl: '/src/assets/images/internal_planetary_gear_1791896438723.jpg',
+    imageUrl: planetaryGearImage,
     caption: 'Precision-machined internal ring gear with planetary pinions and sun gear assembly',
     primaryAdvantage: 'Shares heavy torque across multiple planet pinions in a compact outer diameter.',
     manufacturingHighlight: 'Internal slotting and gear shaping with tight pitch run-out control.',
@@ -81,7 +87,7 @@ const VISUAL_GEAR_TYPES: GearVisualItem[] = [
     category: 'Reverse Engineering & Quality Control',
     shaftOrientation: 'Inspection & Metrology',
     toothGeometry: 'Tooth micrometer measurement, pitch profile reconstruction & metallurgical assay',
-    imageUrl: '/src/assets/images/broken_gear_inspection_1791891645384.jpg',
+    imageUrl: brokenGearImage,
     caption: 'Precision metrology and root thickness measurement on worn gear sample',
     primaryAdvantage: 'Allows exact replication of gear wheels even when original CAD drawings are lost.',
     manufacturingHighlight: 'We calculate module, pitch, and core hardness directly from customer sample.',
@@ -252,7 +258,7 @@ export const VisualGearGallery: React.FC<VisualGalleryProps> = ({ onOpenRfq }) =
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           <div className="relative rounded-lg overflow-hidden border border-slate-800 h-40 bg-slate-950 group">
             <img
-              src="/src/assets/images/helical_double_gears_1791894777150.jpg"
+              src={helicalGearsImage}
               alt="Machined helical and double helical herringbone gear wheels"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -265,7 +271,7 @@ export const VisualGearGallery: React.FC<VisualGalleryProps> = ({ onOpenRfq }) =
 
           <div className="relative rounded-lg overflow-hidden border border-slate-800 h-40 bg-slate-950 group">
             <img
-              src="/src/assets/images/bronze_worm_gear_1791891645632.jpg"
+              src={bronzeWormImage}
               alt="Phosphor bronze worm wheel and hardened steel worm screw"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -278,7 +284,7 @@ export const VisualGearGallery: React.FC<VisualGalleryProps> = ({ onOpenRfq }) =
 
           <div className="relative rounded-lg overflow-hidden border border-slate-800 h-40 bg-slate-950 group">
             <img
-              src="/src/assets/images/broken_gear_inspection_1791891645384.jpg"
+              src={brokenGearImage}
               alt="Technician measuring damaged gear teeth with micrometer"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -291,7 +297,7 @@ export const VisualGearGallery: React.FC<VisualGalleryProps> = ({ onOpenRfq }) =
 
           <div className="relative rounded-lg overflow-hidden border border-slate-800 h-40 bg-slate-950 group">
             <img
-              src="/src/assets/images/types_bevel_helical_1791891645639.jpg"
+              src={bevelHelicalImage}
               alt="Precision spiral bevel gear and internal ring gears"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"

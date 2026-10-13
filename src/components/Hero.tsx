@@ -1,4 +1,5 @@
 import React from 'react';
+import gearAssemblyImage from '../assets/images/gear_hero_assembly_1791891644858.jpg';
 import { ArrowRight, ChevronRight, CheckCircle2, Clock } from 'lucide-react';
 
 interface HeroProps {
@@ -95,7 +96,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenRfq, onScrollToSection }) => {
             {/* Visual Industrial Gear Photograph */}
             <div className="relative rounded-xl overflow-hidden border border-slate-700 shadow-2xl bg-slate-900 group">
               <img
-                src="/src/assets/images/gear_hero_assembly_1791891644858.jpg"
+                src={gearAssemblyImage}
                 alt="Precision machined steel gear wheels and blueprints on engineering workbench at Vijay Engineering Works"
                 referrerPolicy="no-referrer"
                 className="w-full h-56 sm:h-64 object-cover object-center group-hover:scale-102 transition-transform duration-700"

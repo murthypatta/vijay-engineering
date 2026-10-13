@@ -17,7 +17,7 @@ export const GEAR_CATALOG: GearTypeInfo[] = [
     manufacturingFrom: ['Technical Drawing', 'Physical Worn Sample', 'Dimensions/Specs'],
     keySpecifications: ['Module 1.0 to 16.0 (or DP equivalents)', 'Diameter: Up to 1200 mm', 'Teeth profiles: Standard & Modified Involute', 'Precision bore & keyway cutting'],
     typicalFailureMode: 'Tooth root fatigue, surface pitting from incorrect profile alignment or unhardened teeth.',
-    imageUrl: '/src/assets/images/types_bevel_helical_1791891645639.jpg',
+    imageUrl: '/assets/images/types_bevel_helical_1791891645639.jpg',
     imageCaption: 'Precision-hobbed spur gear wheel and cylindrical gear blanks'
   },
   {
@@ -36,7 +36,7 @@ export const GEAR_CATALOG: GearTypeInfo[] = [
     manufacturingFrom: ['Technical Drawing', 'Physical Worn Sample', 'Dimensions/Specs'],
     keySpecifications: ['Helix Angle: 8° to 45°', 'Face Width: Optimized for load distribution', 'Left-Hand & Right-Hand pairs', 'Ground tooth profiles available'],
     typicalFailureMode: 'Excessive thrust load failure, pitting along contact lines from poor tooth crowning.',
-    imageUrl: '/src/assets/images/helical_double_gears_1791894777150.jpg',
+    imageUrl: '/assets/images/helical_double_gears_1791894777150.jpg',
     imageCaption: 'Precision-machined helical and double helical (herringbone) gear wheels with V-shaped teeth'
   },
   {
@@ -54,7 +54,7 @@ export const GEAR_CATALOG: GearTypeInfo[] = [
     manufacturingFrom: ['Technical Drawing', 'Physical Worn Sample', 'Dimensions/Specs'],
     keySpecifications: ['Continuous or Grooved Apex', 'Custom diametral pitch replication', 'Heavy-duty face widths'],
     typicalFailureMode: 'Uneven wear across twin helices when shafts go out of parallel alignment.',
-    imageUrl: '/src/assets/images/herringbone_bull_gear_1791895433217.jpg',
+    imageUrl: '/assets/images/herringbone_bull_gear_1791895433217.jpg',
     imageCaption: 'Heavy-duty forged steel herringbone double helical gear wheel for rolling mills and heavy drives'
   },
   {
@@ -73,7 +73,7 @@ export const GEAR_CATALOG: GearTypeInfo[] = [
     manufacturingFrom: ['Technical Drawing', 'Physical Worn Sample', 'Dimensions/Specs'],
     keySpecifications: ['Shaft Angle: 90° (Standard) or Custom Oblique', 'Precision matched gear and pinion pairs', 'Mounting distance verification'],
     typicalFailureMode: 'Scuffing and chipped tooth ends due to improper mounting distance adjustment.',
-    imageUrl: '/src/assets/images/spiral_bevel_gears_1791895892612.jpg',
+    imageUrl: '/assets/images/spiral_bevel_gears_1791895892612.jpg',
     imageCaption: 'Precision-matched spiral bevel gear and pinion drive assembly for 90-degree shaft power transmission'
   },
   {
@@ -91,7 +91,7 @@ export const GEAR_CATALOG: GearTypeInfo[] = [
     manufacturingFrom: ['Technical Drawing', 'Physical Worn Sample', 'Dimensions/Specs'],
     keySpecifications: ['Single, Double & Multi-start Worms', 'Thread grinding & polishing', 'Precision lead angle matching'],
     typicalFailureMode: 'Rapid bronze tooth flaking when lubrication breaks down or shafts deflect.',
-    imageUrl: '/src/assets/images/bronze_worm_gear_1791891645632.jpg',
+    imageUrl: '/assets/images/bronze_worm_gear_1791891645632.jpg',
     imageCaption: 'High-grade phosphor bronze worm wheel meshed with case-hardened worm shaft'
   },
   {
@@ -109,7 +109,7 @@ export const GEAR_CATALOG: GearTypeInfo[] = [
     manufacturingFrom: ['Technical Drawing', 'Physical Worn Sample', 'Dimensions/Specs'],
     keySpecifications: ['Internal shaping & gear slotting', 'Internal diameters up to 1000 mm', 'Flame/induction hardened teeth'],
     typicalFailureMode: 'Internal rim cracking or uneven tooth tip wear from planet carrier misalignment.',
-    imageUrl: '/src/assets/images/internal_planetary_gear_1791896438723.jpg',
+    imageUrl: '/assets/images/internal_planetary_gear_1791896438723.jpg',
     imageCaption: 'Precision-machined internal ring gear with planetary pinions and sun gear assembly'
   },
   {
@@ -127,7 +127,7 @@ export const GEAR_CATALOG: GearTypeInfo[] = [
     manufacturingFrom: ['Technical Drawing', 'Physical Worn Sample', 'Dimensions/Specs'],
     keySpecifications: ['Zero run-out precision bore', 'Exact timing marks stamped', 'Tight backlash tolerances (0.05 - 0.12 mm)'],
     typicalFailureMode: 'Catastrophic engine valve collision if teeth skip or break due to inaccurate tooth pitching.',
-    imageUrl: '/src/assets/images/gear_hero_assembly_1791891644858.jpg',
+    imageUrl: '/assets/images/gear_hero_assembly_1791891644858.jpg',
     imageCaption: 'Engine timing gear wheels manufactured with precision bore and keyway tolerances'
   },
   {
@@ -145,7 +145,7 @@ export const GEAR_CATALOG: GearTypeInfo[] = [
     manufacturingFrom: ['Technical Drawing', 'Physical Worn Sample', 'Dimensions/Specs'],
     keySpecifications: ['Involute & Straight-sided Splines', 'Simplex, Duplex & Triplex Sprockets', 'Broached or wire-EDM / slotted internal splines'],
     typicalFailureMode: 'Fretting corrosion and tooth shearing from torsional play and improper hardness.',
-    imageUrl: '/src/assets/images/spline_shafts_sprockets_1791897000713.jpg',
+    imageUrl: '/assets/images/spline_shafts_sprockets_1791897000713.jpg',
     imageCaption: 'Precision-machined involute spline shafts, heavy transmission sprockets, and splined couplings'
   }
 ];
@@ -160,7 +160,7 @@ export const PAIN_POINTS_DATA: PainPointItem[] = [
     engineeringRemedy: 'We analyze your operational torque and shock loads, selecting certified alloy steel (e.g. EN19, EN24, 20MnCr5) with controlled heat treatment (case-hardening or induction) to ensure tooth toughness and fatigue resistance.',
     impactOnDowntime: 'Eliminates sudden catastrophic fractures; keeps primary lines running reliably between scheduled maintenance windows.',
     iconName: 'AlertTriangle',
-    imageUrl: '/src/assets/images/broken_gear_inspection_1791891645384.jpg'
+    imageUrl: '/assets/images/broken_gear_inspection_1791891645384.jpg'
   },
   {
     id: 'pain-2',
